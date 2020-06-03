@@ -1021,6 +1021,21 @@
     react-is "^16.13.0"
     use-subscription "^1.4.0"
 
+"@react-navigation/drawer@^5.8.1":
+  version "5.8.1"
+  resolved "https://registry.npm.taobao.org/@react-navigation/drawer/download/@react-navigation/drawer-5.8.1.tgz#6679f309f2758920f17cca3aa253fc7b3fc0c85a"
+  integrity sha1-ZnnzCfJ1iSDxfMo6olP8ez/AyFo=
+  dependencies:
+    color "^3.1.2"
+    react-native-iphone-x-helper "^1.2.1"
+
+"@react-navigation/material-top-tabs@^5.2.9":
+  version "5.2.9"
+  resolved "https://registry.npm.taobao.org/@react-navigation/material-top-tabs/download/@react-navigation/material-top-tabs-5.2.9.tgz#4c422c6aa92888c92a719988da18cefd5d5481cd"
+  integrity sha1-TEIsaqkoiMkqcZmI2hjO/V1Ugc0=
+  dependencies:
+    color "^3.1.2"
+
 "@react-navigation/native@^3.7.13":
   version "3.7.13"
   resolved "https://registry.npm.taobao.org/@react-navigation/native/download/@react-navigation/native-3.7.13.tgz#5fdf879d5af40fb5bf751b6d932dd30656c9991e"
@@ -5140,6 +5155,11 @@ react-native-screens@^2.8.0:
   version "2.8.0"
   resolved "https://registry.npm.taobao.org/react-native-screens/download/react-native-screens-2.8.0.tgz#9f989096fc5ccf248e0dfa93a74f1a64057e15f1"
   integrity sha1-n5iQlvxczySODfqTp08aZAV+FfE=
+
+react-native-tab-view@^2.14.2:
+  version "2.14.2"
+  resolved "https://registry.npm.taobao.org/react-native-tab-view/download/react-native-tab-view-2.14.2.tgz#5f1e2063f632ec7f8ab27374ecaf72677788b445"
+  integrity sha1-Xx4gY/Yy7H+KsnN07K9yZ3eItEU=
 
 react-native-vector-icons@^6.6.0:
   version "6.6.0"
