@@ -5,15 +5,19 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 // import HomeScreen from './src/home'
 import ProfileScreen from './src/profile'
-import Feed from './src/Feed'
+import ScrollTopTab from './src/ScrollTopTab'
 
 const Drawer = createDrawerNavigator()
 const Stack = createStackNavigator()
 
 function HomeScreen() {
     return (
-        <Stack.Navigator>
-            <Stack.Screen name='Feed' component={Feed}/>
+        <Stack.Navigator
+            screenOptions={{
+                headerShown: false,
+            }}
+        >
+            <Stack.Screen name='ScrollTopBar' component={ScrollTopTab} />
         </Stack.Navigator>
     )
 }
