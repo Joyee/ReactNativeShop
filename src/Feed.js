@@ -4,7 +4,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 
 import Request from './utils/fetch'
 import FeedList from './components/FeedList'
-import ScrollTopTab from './ScrollTopTab'
+import ScrollTopTab from './components/ScrollTopTab'
 
 const MaterialTopTabs = createMaterialTopTabNavigator()
 

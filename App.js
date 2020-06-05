@@ -5,7 +5,7 @@ import { createStackNavigator } from '@react-navigation/stack'
 
 // import HomeScreen from './src/home'
 import ProfileScreen from './src/profile'
-import ScrollTopTab from './src/ScrollTopTab'
+import ScrollTopTab from './src/components/ScrollTopTab'
 
 const Drawer = createDrawerNavigator()
 const Stack = createStackNavigator()

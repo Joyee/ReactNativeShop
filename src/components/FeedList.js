@@ -1,8 +1,14 @@
 import React from 'react'
 import { Text } from 'react-native'
 
-export default function FeedList() {
-    return (
-        <Text>List</Text>
-    )
+export default class FeedList extends React.Component {
+    constructor(props) {
+        super(props)
+    }
+    render() {
+        const { tab } = this.props
+        return (
+            <Text></Text>
+        )
+    }
 }
